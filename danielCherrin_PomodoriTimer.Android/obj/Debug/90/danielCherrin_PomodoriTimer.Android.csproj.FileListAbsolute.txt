@@ -507,3 +507,4 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\typemap.mj.armeabi-v7a.s
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\typemap.mj.x86.s
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\typemap.mj.x86_64.s
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Mono.Android.pdb

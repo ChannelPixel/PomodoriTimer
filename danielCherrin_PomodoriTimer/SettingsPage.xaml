@@ -5,11 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="danielCherrin_PomodoriTimer.SettingsPage"
-             BackgroundColor="{StaticResource Color_Secondary}">
+             BackgroundColor="{DynamicResource Color_Secondary}">
     <ContentPage.Content>
 
         <Grid Padding="15">
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
@@ -31,8 +34,36 @@
                    Style="{StaticResource Label_XS}"
                    Text="Use Dark Theme"/>
             <Switch Grid.Row="1" Grid.Column="3"
+                    HorizontalOptions="End" WidthRequest="50"
+                    OnColor="{DynamicResource Color_Third}"
+                    x:Name="Swtch_UseDarkTheme" Toggled="Swtch_UseDarkTheme_Toggled"/>
+
+            <Label Grid.Row="2" Grid.Column="1"
+                   HorizontalOptions="Start"
+                   Style="{StaticResource Label_XS}"
+                   Text="Study Length"/>
+            <Picker Grid.Row="2" Grid.Column="3"
+                    HorizontalOptions="End" 
+                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    x:Name="Pckr_StudyMin" SelectedIndexChanged="Pckr_Lengths_SelectedIndexChanged"/>
+
+            <Label Grid.Row="3" Grid.Column="1"
+                   HorizontalOptions="Start"
+                   Style="{StaticResource Label_XS}"
+                   Text="Short Break Length"/>
+            <Picker Grid.Row="3" Grid.Column="3"
                     HorizontalOptions="End"
-                    OnColor="{StaticResource Color_Third}"/>
+                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    x:Name="Pckr_ShortBreakMin" SelectedIndexChanged="Pckr_ShortBreakMin_SelectedIndexChanged"/>
+
+            <Label Grid.Row="4" Grid.Column="1"
+                   HorizontalOptions="Start"
+                   Style="{StaticResource Label_XS}"
+                   Text="Long Break Length"/>
+            <Picker Grid.Row="4" Grid.Column="3"
+                    HorizontalOptions="End"
+                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    x:Name="Pckr_LongBreakMin" SelectedIndexChanged="Pckr_LongBreakMin_SelectedIndexChanged"/>
 
         </Grid>
     </ContentPage.Content>

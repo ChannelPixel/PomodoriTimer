@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
+using Newtonsoft.Json;
 
 namespace danielCherrin_PomodoriTimer
 {
@@ -13,7 +15,7 @@ namespace danielCherrin_PomodoriTimer
     [DesignTimeVisible(true)]
     public partial class MainPage : ContentPage
     {
-        private PomodoriUserTimer HomeTimer = new PomodoriUserTimer();
+        internal PomodoriUserTimer HomeTimer = JsonConvert.DeserializeObject<PomodoriUserTimer>(Preferences.Get("UserPomodori", JsonConvert.SerializeObject(new PomodoriUserTimer())));
         private Task CountingThread;
 
         public MainPage()
@@ -21,6 +23,7 @@ namespace danielCherrin_PomodoriTimer
             InitializeComponent();
             CountingThread = StartCountingThread();
             UpdateUI();
+            PomodoriTimerAPI.RefreshDynamicThemeResources(HomeTimer.UseDarkTheme);
         }
 
         private async Task StartCountingThread()
@@ -40,6 +43,12 @@ namespace danielCherrin_PomodoriTimer
                 }
                 await Task.Delay(1000);
             }
+        }
+
+        internal void OnClose()
+        {
+            Preferences.Set("UserPomodori", JsonConvert.SerializeObject(HomeTimer));
+            Console.WriteLine("Onclose successful");
         }
 
         internal void UpdateUI()

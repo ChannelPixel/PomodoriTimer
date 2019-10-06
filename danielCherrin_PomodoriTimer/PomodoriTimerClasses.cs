@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel;
+using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace danielCherrin_PomodoriTimer
 {
@@ -10,6 +12,20 @@ namespace danielCherrin_PomodoriTimer
         public static int DefaultPomLength = 25;
         public static int DefaultBreakLength = 5;
         public static int DefaultLongBreakLength = 30;
+
+        public static void RefreshDynamicThemeResources(bool IsDarkTheme)
+        {
+            if(IsDarkTheme)
+            {
+                Application.Current.Resources["Color_Main"] = ColorConverters.FromHex("#f1f1f1");
+                Application.Current.Resources["Color_Secondary"] = ColorConverters.FromHex("#1a1a1a");
+            }
+            else
+            {
+                Application.Current.Resources["Color_Main"] = ColorConverters.FromHex("#1a1a1a");
+                Application.Current.Resources["Color_Secondary"] = ColorConverters.FromHex("#f1f1f1");
+            }
+        }
     }
 
     internal class PomodoriUserTimer : INotifyPropertyChanged
@@ -87,6 +103,18 @@ namespace danielCherrin_PomodoriTimer
             }
         }
         #endregion
+        #region UseDarkTheme
+        private bool _UseDarkTheme;
+        public bool UseDarkTheme
+        {
+            get { return _UseDarkTheme; }
+            set
+            {
+                _UseDarkTheme = value;
+                OnPropertyChanged("UseDarkTheme");
+            }
+        }
+        #endregion 
         #endregion
 
         #region Constructors
@@ -98,6 +126,7 @@ namespace danielCherrin_PomodoriTimer
             CurrentTimerState = 0;
             Counting = false;
             CurrentSpan = new TimeSpan(0, PomLength, 0);
+            UseDarkTheme = true;
         }
         public PomodoriUserTimer(int pomLength, int breakLength, int longBreakLength)
         {
@@ -107,6 +136,19 @@ namespace danielCherrin_PomodoriTimer
             CurrentTimerState = 0;
             Counting = false;
             CurrentSpan = new TimeSpan(0, PomLength, 0);
+            UseDarkTheme = true;
+        }
+
+        public PomodoriUserTimer(int pomLength, int breakLength, int longBreakLength, bool useDarkTheme)
+        {
+            this.PomLength = pomLength;
+            this.BreakLength = breakLength;
+            this.LongBreakLength = longBreakLength;
+            CurrentTimerState = 0;
+            Counting = false;
+            CurrentSpan = new TimeSpan(0, PomLength, 0);
+            UseDarkTheme = useDarkTheme;
+            PomodoriTimerAPI.RefreshDynamicThemeResources(UseDarkTheme);
         }
         #endregion
 
