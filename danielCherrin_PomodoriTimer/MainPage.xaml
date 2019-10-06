@@ -1,16 +1,163 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="danielCherrin_PomodoriTimer.MainPage">
+             x:Class="danielCherrin_PomodoriTimer.MainPage"
+             BackgroundColor="{StaticResource Color_Secondary}"
+             Title="Timer">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid Padding="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <!--SETTINGS-->
+        <Button Grid.Row="0" Grid.Column="0"
+                WidthRequest="50"
+                Style="{StaticResource Button_S}" Text="&#x22EE;"
+                IsTabStop="False"
+                x:Name="Btn_HomeSettings" Clicked="Btn_HomeSettings_Clicked"/>
+
+        <!--TIMER GRID-->
+        <Grid Grid.Row="1" Grid.Column="0"
+              Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!--TIMER LABEL-->
+            <Label Grid.Row="1" Grid.Column="0"
+                   HorizontalOptions="Center" VerticalOptions="Start"
+                   x:Name="Lbl_HomeTimer" Text="--:--"
+                   Style="{StaticResource Label_XL}"/>
+
+            <!--CHECKPOINTS-->
+            <Grid Grid.Row="1" Grid.Column="0"
+                  HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Necessary to properly layout labels because of stupid vertical padding-->
+                <BoxView HeightRequest="75"/>
+
+                <!--CHECKPOINT GRID-->
+                <Grid Grid.Row="2" Grid.Column="0" 
+                  HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65"/>
+                        <RowDefinition Height="10"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Checkpoint_TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+
+                    <Label Grid.Row="0" Grid.Column="0"
+                           HorizontalOptions="Center" VerticalOptions="Start"
+                           Style="{StaticResource Label_M}" Text="&#x25CB;"
+                           x:Name="Lbl_FirstPom">
+                        
+                    </Label>
+
+                    <Label Grid.Row="0" Grid.Column="1"
+                           HorizontalOptions="Center" VerticalOptions="Start"
+                           Style="{StaticResource Label_M}" Text="&#x25CB;"
+                           x:Name="Lbl_SecondPom">
+                        
+                    </Label>
+                    <Label Grid.Row="0" Grid.Column="2"
+                           HorizontalOptions="Center" VerticalOptions="Start"
+                           Style="{StaticResource Label_M}" Text="&#x25CB;"
+                           x:Name="Lbl_ThirdPom">
+                        
+                    </Label>
+                    <Label Grid.Row="0" Grid.Column="3"
+                           HorizontalOptions="Center" VerticalOptions="Start"
+                           Style="{StaticResource Label_M}" Text="&#x25CB;"
+                           x:Name="Lbl_FourthPom">
+                        
+                    </Label>
+
+                    <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                           HorizontalOptions="Center" VerticalOptions="End"
+                           Style="{StaticResource Label_XS}" Text="&#x25CB;"
+                           x:Name="Lbl_FirstBreak">
+                        
+                    </Label>
+                    <Label Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                           HorizontalOptions="Center" VerticalOptions="End"
+                           Style="{StaticResource Label_XS}" Text="&#x25CB;"
+                           x:Name="Lbl_SecondBreak">
+                        
+                    </Label>
+                    <Label Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
+                           HorizontalOptions="Center" VerticalOptions="End"
+                           Style="{StaticResource Label_XS}" Text="&#x25CB;"
+                           x:Name="Lbl_ThirdBreak">
+                        
+                    </Label>
+                    <Label Grid.Row="0" Grid.Column="3" Grid.RowSpan="2"
+                           HorizontalOptions="Center" VerticalOptions="End"
+                           Style="{StaticResource Label_XS}" Text="&#x25CB;"
+                           x:Name="Lbl_FourthBreak">
+                        
+                    </Label>
+                </Grid>
+                
+            </Grid>
+
+
+            <!--RESET/PLAY-->
+            <Grid Grid.Row="2" Grid.Column="0"
+                  HorizontalOptions="Center" VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Necessary to properly layout labels because of stupid vertical padding-->
+                <BoxView HeightRequest="0"/>
+
+                <Button Grid.Row="1" Grid.Column="0"
+                        HorizontalOptions="End" VerticalOptions="Center"
+                        Style="{StaticResource Button_S}" Text="&#x27F2;"
+                        x:Name="Btn_Refresh" Clicked="Btn_Refresh_Clicked"/>
+                <Button Grid.Row="1" Grid.Column="1"
+                        HorizontalOptions="Start" VerticalOptions="Center"
+                        Style="{StaticResource Button_S}" Text="&#x2016;"
+                        x:Name="Btn_PlayPause" Clicked="Btn_PlayPause_Clicked"/>
+            </Grid>
+        </Grid>
+    </Grid>
+    
 </ContentPage>

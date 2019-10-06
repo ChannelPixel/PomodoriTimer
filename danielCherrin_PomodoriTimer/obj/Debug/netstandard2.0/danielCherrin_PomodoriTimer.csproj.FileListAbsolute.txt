@@ -1,8 +1,12 @@
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.deps.json
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.csprojAssemblyReference.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\App.xaml.g.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.csproj.CoreCompileInputs.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.AssemblyInfoInputs.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.AssemblyInfo.cs
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.pdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.deps.json
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.pdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\XamlC.stamp
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\danielCherrin_PomodoriTimer.csprojAssemblyReference.cache
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs

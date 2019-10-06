@@ -6,6 +6,103 @@
              mc:Ignorable="d"
              x:Class="danielCherrin_PomodoriTimer.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <!--FONT FAMILY-->
+            <x:String x:Key="Font_MainFont">Arial</x:String>
 
+            <!--BASE COLOURS-->
+            <Color x:Key="Color_Main">#f1f1f1</Color>
+            <Color x:Key="Color_Secondary">#1a1a1a</Color>
+            <Color x:Key="Color_Third">#ca2c43</Color>
+            <Color x:Key="Color_Transparent">#00000000</Color>
+
+            <!--STYLES-->
+            <Style x:Key="Label_XXL" TargetType="Label">
+                <Setter Property="FontSize" Value="128"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Label_XL" TargetType="Label">
+                <Setter Property="FontSize" Value="96"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Label_L" TargetType="Label">
+                <Setter Property="FontSize" Value="72"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Label_M" TargetType="Label">
+                <Setter Property="FontSize" Value="64"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Label_S" TargetType="Label">
+                <Setter Property="FontSize" Value="32"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Label_XS" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+            
+            <Style x:Key="Label_XXS" TargetType="Label">
+                <Setter Property="FontSize" Value="8"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style x:Key="Button_L" TargetType="Button">
+                <Setter Property="FontSize" Value="72"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Color_Transparent}"/>
+            </Style>
+
+            <Style x:Key="Button_M" TargetType="Button">
+                <Setter Property="FontSize" Value="64"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Color_Transparent}"/>
+            </Style>
+
+            <Style x:Key="Button_S" TargetType="Button">
+                <Setter Property="FontSize" Value="32"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Color_Transparent}"/>
+            </Style>
+
+            <Style x:Key="Button_XS" TargetType="Button">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontFamily" Value="{StaticResource Font_MainFont}"/>
+                <Setter Property="TextColor" Value="{StaticResource Color_Main}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Color_Transparent}"/>
+            </Style>
+
+            
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
