@@ -41,28 +41,28 @@
             <Label Grid.Row="2" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
-                   Text="Study Length"/>
+                   Text="Study Length (min.)"/>
             <Picker Grid.Row="2" Grid.Column="3"
                     HorizontalOptions="End" 
-                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_StudyMin" SelectedIndexChanged="Pckr_Lengths_SelectedIndexChanged"/>
 
             <Label Grid.Row="3" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
-                   Text="Short Break Length"/>
+                   Text="Break Length (min.)"/>
             <Picker Grid.Row="3" Grid.Column="3"
                     HorizontalOptions="End"
-                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_ShortBreakMin" SelectedIndexChanged="Pckr_ShortBreakMin_SelectedIndexChanged"/>
 
             <Label Grid.Row="4" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
-                   Text="Long Break Length"/>
+                   Text="Long Break Length (min.)"/>
             <Picker Grid.Row="4" Grid.Column="3"
                     HorizontalOptions="End"
-                    TextColor="{DynamicResource Color_Main}" Title="Select a length"
+                    TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_LongBreakMin" SelectedIndexChanged="Pckr_LongBreakMin_SelectedIndexChanged"/>
 
         </Grid>

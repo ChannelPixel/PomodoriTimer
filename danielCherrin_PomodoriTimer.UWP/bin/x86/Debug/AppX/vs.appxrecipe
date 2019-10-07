@@ -30,13 +30,13 @@
     <AppXManifest Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-06T15:18:09.376</Modified>
+      <Modified>2019-10-07T04:57:38.011</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\danielCherrin_PomodoriTimer.UWP.exe">
       <PackagePath>entrypoint\danielCherrin_PomodoriTimer.UWP.exe</PackagePath>
-      <Modified>2019-10-06T15:18:08.723</Modified>
+      <Modified>2019-10-07T04:57:37.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.dll">
       <PackagePath>danielCherrin_PomodoriTimer.dll</PackagePath>
-      <Modified>2019-10-06T15:18:07.348</Modified>
+      <Modified>2019-10-07T04:57:32.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -227,11 +227,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-06T15:17:10.760</Modified>
+      <Modified>2019-10-07T04:57:37.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-06T15:17:10.760</Modified>
+      <Modified>2019-10-07T04:57:37.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -247,7 +247,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\Core\danielCherrin_PomodoriTimer.UWP.exe">
       <PackagePath>danielCherrin_PomodoriTimer.UWP.exe</PackagePath>
-      <Modified>2019-10-06T15:18:09.372</Modified>
+      <Modified>2019-10-07T04:57:38.008</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
