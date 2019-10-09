@@ -23,6 +23,12 @@ namespace danielCherrin_PomodoriTimer {
         private global::Xamarin.Forms.Switch Swtch_UseDarkTheme;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Switch Swtch_UseAlarmNotification;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Switch Swtch_UseAlarmSound;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Picker Pckr_StudyMin;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -36,6 +42,8 @@ namespace danielCherrin_PomodoriTimer {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SettingsPage));
             Btn_ReturnToHomepage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Btn_ReturnToHomepage");
             Swtch_UseDarkTheme = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "Swtch_UseDarkTheme");
+            Swtch_UseAlarmNotification = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "Swtch_UseAlarmNotification");
+            Swtch_UseAlarmSound = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "Swtch_UseAlarmSound");
             Pckr_StudyMin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "Pckr_StudyMin");
             Pckr_ShortBreakMin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "Pckr_ShortBreakMin");
             Pckr_LongBreakMin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "Pckr_LongBreakMin");

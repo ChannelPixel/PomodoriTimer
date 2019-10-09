@@ -25,6 +25,8 @@ namespace danielCherrin_PomodoriTimer
             }
 
             Swtch_UseDarkTheme.IsToggled = PrevPage.HomeTimer.UseDarkTheme;
+            Swtch_UseAlarmNotification.IsToggled = PrevPage.HomeTimer.UseAlarmNotification;
+            Swtch_UseAlarmSound.IsToggled = PrevPage.HomeTimer.UseAlarmSound;
 
             Pckr_StudyMin.ItemsSource = MinutesArray;
             Pckr_ShortBreakMin.ItemsSource = MinutesArray;
@@ -45,26 +47,64 @@ namespace danielCherrin_PomodoriTimer
 
         private void Pckr_Lengths_SelectedIndexChanged(object sender, EventArgs e)
         {
-            PrevPage.HomeTimer.PomLength = Pckr_StudyMin.SelectedIndex;
-            UpdateHomepage();
+            if(PrevPage.HomeTimer.PomLength != Pckr_StudyMin.SelectedIndex && (
+                PrevPage.HomeTimer.CurrentTimerState == 0
+                || PrevPage.HomeTimer.CurrentTimerState == 2
+                || PrevPage.HomeTimer.CurrentTimerState == 4
+                || PrevPage.HomeTimer.CurrentTimerState == 6))
+            {
+                PrevPage.HomeTimer.Counting = false;
+                PrevPage.HomeTimer.PomLength = Pckr_StudyMin.SelectedIndex;
+                PrevPage.HomeTimer.RefreshTimerState();
+                UpdateHomepage();
+            }
+
+            if(PrevPage.HomeTimer.PomLength != Pckr_StudyMin.SelectedIndex)
+            {
+                PrevPage.HomeTimer.PomLength = Pckr_StudyMin.SelectedIndex;
+            }
+            
         }
 
         private void Pckr_ShortBreakMin_SelectedIndexChanged(object sender, EventArgs e)
         {
-            PrevPage.HomeTimer.BreakLength = Pckr_ShortBreakMin.SelectedIndex;
-            UpdateHomepage();
+            if (PrevPage.HomeTimer.BreakLength != Pckr_ShortBreakMin.SelectedIndex && (
+                PrevPage.HomeTimer.CurrentTimerState == 1
+                || PrevPage.HomeTimer.CurrentTimerState == 3
+                || PrevPage.HomeTimer.CurrentTimerState == 5
+                || PrevPage.HomeTimer.CurrentTimerState == 7))
+            {
+                PrevPage.HomeTimer.Counting = false;
+                PrevPage.HomeTimer.BreakLength = Pckr_ShortBreakMin.SelectedIndex;
+                PrevPage.HomeTimer.RefreshTimerState();
+                UpdateHomepage();
+            }
+
+            if (PrevPage.HomeTimer.BreakLength != Pckr_ShortBreakMin.SelectedIndex)
+            {
+                PrevPage.HomeTimer.BreakLength = Pckr_ShortBreakMin.SelectedIndex;
+            }
         }
 
         private void Pckr_LongBreakMin_SelectedIndexChanged(object sender, EventArgs e)
         {
-            PrevPage.HomeTimer.LongBreakLength = Pckr_LongBreakMin.SelectedIndex;
-            UpdateHomepage();
+            if (PrevPage.HomeTimer.LongBreakLength != Pckr_LongBreakMin.SelectedIndex &&
+                PrevPage.HomeTimer.CurrentTimerState == 8)
+            {
+                PrevPage.HomeTimer.Counting = false;
+                PrevPage.HomeTimer.LongBreakLength = Pckr_LongBreakMin.SelectedIndex;
+                PrevPage.HomeTimer.RefreshTimerState();
+                UpdateHomepage();
+            }
+
+            if(PrevPage.HomeTimer.LongBreakLength != Pckr_LongBreakMin.SelectedIndex)
+            {
+                PrevPage.HomeTimer.LongBreakLength = Pckr_LongBreakMin.SelectedIndex;
+            }
         }
 
         private void UpdateHomepage()
         {
-            PrevPage.HomeTimer.RefreshTimerState();
-            PrevPage.HomeTimer.Counting = false;
             PrevPage.UpdateUI();
         }
 
@@ -72,6 +112,16 @@ namespace danielCherrin_PomodoriTimer
         {
             PrevPage.HomeTimer.UseDarkTheme = Swtch_UseDarkTheme.IsToggled;
             PomodoriTimerAPI.RefreshDynamicThemeResources(PrevPage.HomeTimer.UseDarkTheme);
+        }
+
+        private void Swtch_UseAlarmSound_Toggled(object sender, ToggledEventArgs e)
+        {
+            PrevPage.HomeTimer.UseAlarmSound = Swtch_UseAlarmSound.IsToggled;
+        }
+
+        private void Swtch_UseAlarmNotification_Toggled(object sender, ToggledEventArgs e)
+        {
+            PrevPage.HomeTimer.UseAlarmNotification = Swtch_UseAlarmNotification.IsToggled;
         }
     }
 }

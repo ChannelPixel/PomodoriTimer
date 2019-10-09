@@ -20,6 +20,28 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -163,6 +185,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.815419"
         },
@@ -193,6 +217,28 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -336,6 +382,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.815419"
         },
@@ -366,6 +414,28 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -509,6 +579,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.815419"
         },
@@ -539,6 +611,28 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -682,6 +776,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
+          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.2.0.815419"
         },
@@ -770,6 +866,84 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
+      "sha512": "La40CN/Inhd3ewZeNZUGbzgOAt2Oio3/fyFlzVbeExyuhywtsRaodhRTnIX8IYOGvA/gqEznQw/Ws7PZxTekig==",
+      "type": "package",
+      "path": "xam.plugin.simpleaudioplayer/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/net45/Plugin.SimpleAudioPlayer.WPF.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.WPF.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
+        "xam.plugin.simpleaudioplayer.1.3.1.nupkg.sha512",
+        "xam.plugin.simpleaudioplayer.nuspec"
+      ]
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "type": "package",
+      "path": "xam.plugins.notifier/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/UAP10/Plugin.LocalNotifications.XML",
+        "lib/UAP10/Plugin.LocalNotifications.dll",
+        "lib/UAP10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.pri",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
+        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
+        "xam.plugins.notifier.3.0.1.nupkg.sha512",
+        "xam.plugins.notifier.nuspec"
       ]
     },
     "Xamarin.Essentials/1.3.1": {
@@ -1079,6 +1253,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Newtonsoft.Json >= 12.0.2",
+      "Xam.Plugin.SimpleAudioPlayer >= 1.3.1",
+      "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.2.0.815419",
       "danielCherrin_PomodoriTimer >= 1.0.0"
@@ -1129,6 +1305,14 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
+          },
+          "Xam.Plugin.SimpleAudioPlayer": {
+            "target": "Package",
+            "version": "[1.3.1, )"
+          },
+          "Xam.Plugins.Notifier": {
+            "target": "Package",
+            "version": "[3.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

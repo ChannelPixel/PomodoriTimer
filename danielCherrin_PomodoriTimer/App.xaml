@@ -11,7 +11,7 @@
             <x:String x:Key="Font_MainFont">Arial</x:String>
 
             <!--BASE COLOURS-->
-            <Color x:Key="Color_Main">#f1f1f1</Color>
+            <Color x:Key="Color_Main">#ffffff</Color>
             <Color x:Key="Color_Secondary">#1a1a1a</Color>
             <Color x:Key="Color_Third">#ca2c43</Color>
             <Color x:Key="Color_Transparent">#00000000</Color>

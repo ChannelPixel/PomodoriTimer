@@ -5,6 +5,10 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Mono.Android.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\mscorlib.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Plugin.LocalNotifications.Abstractions.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Plugin.LocalNotifications.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Plugin.SimpleAudioPlayer.Abstractions.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Plugin.SimpleAudioPlayer.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.Core.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.Numerics.dll
@@ -67,4 +71,5 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.Web.Services.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\System.IO.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\90\android\assets\Mono.Security.dll

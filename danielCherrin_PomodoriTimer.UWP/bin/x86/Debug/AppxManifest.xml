@@ -23,8 +23,8 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="danielCherrin_PomodoriTimer.UWP.exe" EntryPoint="danielCherrin_PomodoriTimer.UWP.App">
-      <uap:VisualElements DisplayName="danielCherrin_PomodoriTimer.UWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="danielCherrin_PomodoriTimer.UWP" BackgroundColor="transparent">
+    <Application Id="App" Executable="danielCherrin_PomodoriTimer.UWP.exe" EntryPoint="PomodoriTimer.UWP.App">
+      <uap:VisualElements DisplayName="Pomodori Timer" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Improve your productivity with Pomodori Timer." BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />

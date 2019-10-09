@@ -4,6 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "danielCherrin_PomodoriTimer.Android.dll" comes first in this list. */
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.LocalNotifications.Abstractions.dll",
+		"Plugin.LocalNotifications.dll",
+		"Plugin.SimpleAudioPlayer.Abstractions.dll",
+		"Plugin.SimpleAudioPlayer.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

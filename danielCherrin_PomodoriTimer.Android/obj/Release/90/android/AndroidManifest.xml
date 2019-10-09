@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.danielcherrin_pomodoritimer">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.danielcherrin_pomodoritimer" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
   <application android:label="danielCherrin_PomodoriTimer.Android" android:name="android.app.Application" android:allowBackup="true">
+    <receiver android:enabled="true" android:label="Local Notifications Plugin Broadcast Receiver" android:name="md51251ca0436b286678a1cd2c1ca81248e.ScheduledAlarmHandler" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

@@ -34,6 +34,10 @@ namespace danielCherrin_PomodoriTimer
                 {
                     HomeTimer.ToggleCounting();
                     HomeTimer.NextTimerState();
+                    if(HomeTimer.UseAlarmNotification)
+                        PomodoriTimerAPI.AlarmNotificationShow(HomeTimer.CurrentTimerState);
+                    if (HomeTimer.UseAlarmSound)
+                        PomodoriTimerAPI.AlarmSoundStart();
                     UpdateUI();
                 }
                 else if (HomeTimer.Counting)
@@ -48,7 +52,6 @@ namespace danielCherrin_PomodoriTimer
         internal void OnClose()
         {
             Preferences.Set("UserPomodori", JsonConvert.SerializeObject(HomeTimer));
-            Console.WriteLine("Onclose successful");
         }
 
         internal void UpdateUI()
@@ -180,6 +183,7 @@ namespace danielCherrin_PomodoriTimer
         private void Btn_Refresh_Clicked(object sender, EventArgs e)
         {
             HomeTimer.Counting = false;
+            HomeTimer.RefreshTimerState();
             UpdateUI();
         }
 

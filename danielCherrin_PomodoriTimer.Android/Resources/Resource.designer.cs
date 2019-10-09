@@ -26,6 +26,7 @@ namespace danielCherrin_PomodoriTimer.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::danielCherrin_PomodoriTimer.Droid.Resource.Drawable.plugin_lc_smallicon;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::danielCherrin_PomodoriTimer.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::danielCherrin_PomodoriTimer.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::danielCherrin_PomodoriTimer.Droid.Resource.Attribute.font;
@@ -6439,10 +6440,13 @@ namespace danielCherrin_PomodoriTimer.Droid
 			public const int notify_panel_notification_icon_bg = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int tooltip_frame_dark = 2131165497;
+			public const int plugin_lc_smallicon = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int tooltip_frame_light = 2131165498;
+			public const int tooltip_frame_dark = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public const int tooltip_frame_light = 2131165499;
 			
 			static Drawable()
 			{
