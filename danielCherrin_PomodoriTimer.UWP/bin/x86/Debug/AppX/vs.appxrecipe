@@ -19,10 +19,10 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>ECBF57B5AB90F6BCF3AAAF21A0EB108E8723C016C8DDB302375036D5D733960C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>6291f568-b696-4670-a85b-e2dc1e215553_1.0.0.0_x86__nhnxbwkwt27st</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>6291f568-b696-4670-a85b-e2dc1e215553_nhnxbwkwt27st!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>6291f568-b696-4670-a85b-e2dc1e215553</RegisteredPackageID>
+    <RegisteredManifestChecksum>C2FD2F041B9304DE85654FEF0203A0C3A7CB6054333E9C0EC41A8FEABEB9D053</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>PomodoriTimer_1.0.0.0_x86__nhnxbwkwt27st</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>PomodoriTimer_nhnxbwkwt27st!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>PomodoriTimer</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
@@ -30,13 +30,13 @@
     <AppXManifest Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-09T12:32:33.110</Modified>
+      <Modified>2019-10-10T14:17:08.476</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\danielCherrin_PomodoriTimer.UWP.exe">
       <PackagePath>entrypoint\danielCherrin_PomodoriTimer.UWP.exe</PackagePath>
-      <Modified>2019-10-09T12:32:31.806</Modified>
+      <Modified>2019-10-10T14:17:06.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Daniel\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -88,7 +88,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Debug\netstandard2.0\danielCherrin_PomodoriTimer.dll">
       <PackagePath>danielCherrin_PomodoriTimer.dll</PackagePath>
-      <Modified>2019-10-09T12:32:25.547</Modified>
+      <Modified>2019-10-10T14:16:58.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -105,137 +105,252 @@
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.778</Modified>
+      <Modified>2019-10-10T10:06:17.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.779</Modified>
+      <Modified>2019-10-10T10:06:17.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.782</Modified>
+      <Modified>2019-10-10T10:06:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.823</Modified>
+      <Modified>2019-10-10T10:06:17.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.824</Modified>
+      <Modified>2019-10-10T10:06:17.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.826</Modified>
+      <Modified>2019-10-10T10:06:17.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.827</Modified>
+      <Modified>2019-10-10T10:06:18.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.869</Modified>
+      <Modified>2019-10-10T10:06:18.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.872</Modified>
+      <Modified>2019-10-10T10:06:18.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.873</Modified>
+      <Modified>2019-10-10T10:06:17.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.875</Modified>
+      <Modified>2019-10-10T10:06:17.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.918</Modified>
+      <Modified>2019-10-10T10:06:17.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:04:39.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:04:39.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:04:39.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:04:39.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:04:39.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.920</Modified>
+      <Modified>2019-10-10T10:06:18.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.921</Modified>
+      <Modified>2019-10-10T10:06:18.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.923</Modified>
+      <Modified>2019-10-10T10:06:18.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.965</Modified>
+      <Modified>2019-10-10T10:06:18.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.967</Modified>
+      <Modified>2019-10-10T10:06:18.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.968</Modified>
+      <Modified>2019-10-10T10:06:18.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:22.971</Modified>
+      <Modified>2019-10-10T10:06:18.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.011</Modified>
+      <Modified>2019-10-10T10:06:18.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.012</Modified>
+      <Modified>2019-10-10T10:06:18.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.015</Modified>
+      <Modified>2019-10-10T10:06:18.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:18.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.058</Modified>
+      <Modified>2019-10-10T10:06:18.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.060</Modified>
+      <Modified>2019-10-10T10:06:18.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.062</Modified>
+      <Modified>2019-10-10T10:06:17.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-10T10:06:17.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.064</Modified>
+      <Modified>2019-10-10T10:06:17.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-23T09:00:23.105</Modified>
+      <Modified>2019-10-10T10:06:17.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -247,11 +362,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-09T12:32:31.625</Modified>
+      <Modified>2019-10-10T14:17:06.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-09T12:32:31.626</Modified>
+      <Modified>2019-10-10T14:17:06.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -263,11 +378,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-09T12:32:32.289</Modified>
+      <Modified>2019-10-10T14:17:06.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Debug\Core\danielCherrin_PomodoriTimer.UWP.exe">
       <PackagePath>danielCherrin_PomodoriTimer.UWP.exe</PackagePath>
-      <Modified>2019-10-09T12:32:33.093</Modified>
+      <Modified>2019-10-10T14:17:08.451</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="6291f568-b696-4670-a85b-e2dc1e215553" Publisher="CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="PomodoriTimer" Publisher="CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>danielCherrin_PomodoriTimer.UWP</DisplayName>
-    <PublisherDisplayName>a9415905-cf42-4cf5-b2ff-9e055a0a9698</PublisherDisplayName>
+    <DisplayName>Pomodori Timer</DisplayName>
+    <PublisherDisplayName>Daniel R Cherrin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -37,9 +37,6 @@
       </uap:VisualElements>
     </Application>
   </Applications>
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>

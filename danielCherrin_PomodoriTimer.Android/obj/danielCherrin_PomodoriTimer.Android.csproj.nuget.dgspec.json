@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid90"
+          "monoandroid10.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid90": {
+          "monoandroid10.0": {
             "projectReferences": {
               "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj": {
                 "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj"
@@ -40,7 +40,7 @@
         }
       },
       "frameworks": {
-        "monoandroid90": {
+        "monoandroid10.0": {
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
