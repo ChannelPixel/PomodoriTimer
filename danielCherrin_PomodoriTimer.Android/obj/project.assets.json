@@ -874,7 +874,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -885,10 +885,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     }
@@ -2143,15 +2143,16 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "danielCherrin_PomodoriTimer/1.0.0": {
+    "PomodoriTimer/1.0.0": {
       "type": "project",
-      "path": "../danielCherrin_PomodoriTimer/danielCherrin_PomodoriTimer.csproj",
-      "msbuildProject": "../danielCherrin_PomodoriTimer/danielCherrin_PomodoriTimer.csproj"
+      "path": "../danielCherrin_PomodoriTimer/PomodoriTimer.csproj",
+      "msbuildProject": "../danielCherrin_PomodoriTimer/PomodoriTimer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v10.0": [
       "Newtonsoft.Json >= 12.0.2",
+      "PomodoriTimer >= 1.0.0",
       "Xam.Plugin.SimpleAudioPlayer >= 1.3.1",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
@@ -2161,8 +2162,7 @@
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.2.0.815419",
-      "danielCherrin_PomodoriTimer >= 1.0.0"
+      "Xamarin.Forms >= 4.2.0.815419"
     ]
   },
   "packageFolders": {
@@ -2172,9 +2172,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.Android\\danielCherrin_PomodoriTimer.Android.csproj",
-      "projectName": "danielCherrin_PomodoriTimer.Android",
-      "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.Android\\danielCherrin_PomodoriTimer.Android.csproj",
+      "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.Android\\PomodoriTimer.Android.csproj",
+      "projectName": "PomodoriTimer.Android",
+      "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.Android\\PomodoriTimer.Android.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
       "outputPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.Android\\obj\\",
       "projectStyle": "PackageReference",
@@ -2197,8 +2197,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj": {
-              "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj"
+            "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj": {
+              "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj"
             }
           }
         }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="0.5v" android:versionName="0.5v" package="PomodoriTimer.PomodoriTimer" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1" package="Pomodori_Timer.Pomodori_Timer" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="29" />
-	<application android:label="PomodoriTimer.Android" android:icon="@mipmap/PomodoroIcon"></application>
+	<application android:label="Pomodori Timer" android:icon="@mipmap/PomodoriIcon"></application>
 	<uses-permission android:name="android.permission.VIBRATE" />
 </manifest>

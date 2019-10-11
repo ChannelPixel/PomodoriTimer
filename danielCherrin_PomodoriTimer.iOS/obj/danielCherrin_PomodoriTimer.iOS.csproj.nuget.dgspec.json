@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj": {
-                "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj"
+              "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj": {
+                "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj"
               }
             }
           }
@@ -77,12 +77,12 @@
         }
       }
     },
-    "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj": {
+    "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj",
-        "projectName": "danielCherrin_PomodoriTimer",
-        "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj",
+        "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj",
+        "projectName": "PomodoriTimer",
+        "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
         "outputPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\obj\\",
         "projectStyle": "PackageReference",

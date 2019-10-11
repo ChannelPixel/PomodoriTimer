@@ -1,1 +1,0 @@
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\danielCherrin_PomodoriTimer.UWP.csproj;x86

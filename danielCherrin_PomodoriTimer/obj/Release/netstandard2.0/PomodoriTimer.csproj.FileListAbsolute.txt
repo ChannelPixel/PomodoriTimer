@@ -1,0 +1,12 @@
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Release\netstandard2.0\PomodoriTimer.deps.json
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Release\netstandard2.0\PomodoriTimer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\bin\Release\netstandard2.0\PomodoriTimer.pdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\PomodoriTimer.csprojAssemblyReference.cache
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\App.xaml.g.cs
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\SettingsPage.xaml.g.cs
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\PomodoriTimer.AssemblyInfoInputs.cache
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\PomodoriTimer.AssemblyInfo.cs
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\XamlC.stamp
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\PomodoriTimer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer\obj\Release\netstandard2.0\PomodoriTimer.pdb

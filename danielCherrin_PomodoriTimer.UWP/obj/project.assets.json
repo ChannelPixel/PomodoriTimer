@@ -407,7 +407,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -418,10 +418,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -999,7 +999,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1010,10 +1010,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -1592,7 +1592,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1603,10 +1603,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -2182,7 +2182,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2193,10 +2193,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -2774,7 +2774,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2785,10 +2785,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -3367,7 +3367,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3378,10 +3378,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -3959,7 +3959,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3970,10 +3970,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     },
@@ -4552,7 +4552,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "danielCherrin_PomodoriTimer/1.0.0": {
+      "PomodoriTimer/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4563,10 +4563,10 @@
           "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/danielCherrin_PomodoriTimer.dll": {}
+          "bin/placeholder/PomodoriTimer.dll": {}
         }
       }
     }
@@ -9473,21 +9473,21 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "danielCherrin_PomodoriTimer/1.0.0": {
+    "PomodoriTimer/1.0.0": {
       "type": "project",
-      "path": "../danielCherrin_PomodoriTimer/danielCherrin_PomodoriTimer.csproj",
-      "msbuildProject": "../danielCherrin_PomodoriTimer/danielCherrin_PomodoriTimer.csproj"
+      "path": "../danielCherrin_PomodoriTimer/PomodoriTimer.csproj",
+      "msbuildProject": "../danielCherrin_PomodoriTimer/PomodoriTimer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "Newtonsoft.Json >= 12.0.2",
+      "PomodoriTimer >= 1.0.0",
       "Xam.Plugin.SimpleAudioPlayer >= 1.3.1",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.2.0.815419",
-      "danielCherrin_PomodoriTimer >= 1.0.0"
+      "Xamarin.Forms >= 4.2.0.815419"
     ]
   },
   "packageFolders": {
@@ -9498,9 +9498,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.UWP\\danielCherrin_PomodoriTimer.UWP.csproj",
-      "projectName": "danielCherrin_PomodoriTimer.UWP",
-      "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.UWP\\danielCherrin_PomodoriTimer.UWP.csproj",
+      "projectUniqueName": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.UWP\\PomodoriTimer.UWP.csproj",
+      "projectName": "PomodoriTimer.UWP",
+      "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.UWP\\PomodoriTimer.UWP.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
       "outputPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.UWP\\obj\\",
       "projectStyle": "PackageReference",
@@ -9524,8 +9524,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj": {
-              "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer.csproj"
+            "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj": {
+              "projectPath": "Z:\\Github\\Xamarin\\danielCherrin_PomodoriTimer\\danielCherrin_PomodoriTimer\\PomodoriTimer.csproj"
             }
           }
         }
