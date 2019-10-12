@@ -12,8 +12,6 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Core.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Numerics.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Numerics.Vectors.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Runtime.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Xml.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Xml.Linq.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -46,7 +44,6 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.SlidingPaneLayout.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.SwipeRefreshLayout.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.Transition.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.v4.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.v7.CardView.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
@@ -64,12 +61,5 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Drawing.Common.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Runtime.Serialization.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.ServiceModel.Internals.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\netstandard.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Data.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Transactions.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.IO.Compression.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.IO.Compression.FileSystem.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.ComponentModel.Composition.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.Web.Services.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\System.IO.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Release\100\android\assets\Mono.Security.dll

@@ -1,5 +1,4 @@
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\danielCherrin_PomodoriTimer.Android.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\danielCherrin_PomodoriTimer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\PomodoriTimer.Android.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\FormsViewGroup.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Java.Interop.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Mono.Android.dll
@@ -9,6 +8,7 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Plugin.LocalNotifications.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Plugin.SimpleAudioPlayer.Abstractions.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Plugin.SimpleAudioPlayer.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\PomodoriTimer.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Core.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Numerics.dll
@@ -60,16 +60,16 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Androi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Xamarin.Forms.Platform.Android.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Xamarin.Forms.Platform.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Xamarin.Forms.Xaml.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Net.Http.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Drawing.Common.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.dll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\netstandard.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Data.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Transactions.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Drawing.Common.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.IO.Compression.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.IO.Compression.FileSystem.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.ComponentModel.Composition.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Net.Http.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.dll
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.Web.Services.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\System.IO.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.Android\obj\Debug\100\android\assets\Mono.Security.dll

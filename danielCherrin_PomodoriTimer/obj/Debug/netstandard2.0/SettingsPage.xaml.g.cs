@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("danielCherrin_PomodoriTimer.SettingsPage.xaml", "SettingsPage.xaml", typeof(global::danielCherrin_PomodoriTimer.SettingsPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PomodoriTimer.SettingsPage.xaml", "SettingsPage.xaml", typeof(global::danielCherrin_PomodoriTimer.SettingsPage))]
 
 namespace danielCherrin_PomodoriTimer {
     

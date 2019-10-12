@@ -2,8 +2,8 @@
 	.section	.rodata..L.str.1,"aMS",@progbits,1
 	.type	.L.str.1, @object
 .L.str.1:
-	.asciz	"Pomodori_Timer.Pomodori_Timer"
-	.size	.L.str.1, 30
+	.asciz	"pomodoritimer.pomodoritimer"
+	.size	.L.str.1, 28
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
 	.p2align	2
@@ -61,7 +61,7 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.8,"aMS",@progbits,1
 	.type	.L.str.8, @object
 .L.str.8:
-	.asciz	"bff62bfd-4c7e-436a-b2f1-6394b42c4417"
+	.asciz	"4b87a07b-9cf6-4d11-b859-3dc827a5fe07"
 	.size	.L.str.8, 37
 	.section	.rodata..L.str.9,"aMS",@progbits,1
 	.type	.L.str.9, @object
