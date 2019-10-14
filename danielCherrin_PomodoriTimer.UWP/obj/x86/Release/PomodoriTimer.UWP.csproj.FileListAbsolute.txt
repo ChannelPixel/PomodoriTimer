@@ -1,4 +1,3 @@
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\PomodoriTimer.UWP.csprojAssemblyReference.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\App.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\MainPage.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\PomodoriTimer.UWP.xr.xml
@@ -77,6 +76,7 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\SharedStubs.g.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\PomodoriTimer.UWP.build.appxrecipe
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\Upload\PomodoriTimer.UWP.build.appxrecipe
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\Newtonsoft.Json.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\clrcompression.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\Microsoft.CSharp.dll
@@ -267,6 +267,7 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bi
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\Xamarin.Forms.Xaml.pdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\PomodoriTimer.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\PomodoriTimer.pdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\PomodoriTimer.UWP.csprojAssemblyReference.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\App.g.i.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\App.g.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\MainPage.g.i.cs

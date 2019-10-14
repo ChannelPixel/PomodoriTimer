@@ -1,0 +1,6 @@
+MainPackage=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\ARM\Release\PomodoriTimer.UWP_1.0.0.0_ARM.appx
+SymbolPackage=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\ARM\Release\Symbols\PomodoriTimer.UWP_1.0.0.0_ARM.appxsym
+ResourcePack=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\ARM\Release\PomodoriTimer.UWP_1.0.0.0_scale-100.appx
+ResourcePack=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\ARM\Release\PomodoriTimer.UWP_1.0.0.0_scale-125.appx
+ResourcePack=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\ARM\Release\PomodoriTimer.UWP_1.0.0.0_scale-150.appx
+ResourcePack=Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\ARM\Release\PomodoriTimer.UWP_1.0.0.0_scale-400.appx

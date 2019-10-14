@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="PomodoriTimer"
-    Publisher="CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698"
+    Name="23940DanielCherrin.PomodoriTimer"
+    Publisher="CN=E237DED7-BEC1-42F5-8E58-0634223B15F0"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="61dd9d9e-ad16-4ffd-adab-dfafee3c1f42" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Pomodori Timer</DisplayName>
-    <PublisherDisplayName>Daniel R Cherrin</PublisherDisplayName>
+    <PublisherDisplayName>Daniel Cherrin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

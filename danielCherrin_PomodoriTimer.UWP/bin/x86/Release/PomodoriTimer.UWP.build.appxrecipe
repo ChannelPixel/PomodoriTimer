@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
-    <PackageIdentityPublisher>CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698</PackageIdentityPublisher>
+    <PackageIdentityName>61dd9d9e-ad16-4ffd-adab-dfafee3c1f42</PackageIdentityName>
+    <PackageIdentityPublisher>CN=E237DED7-BEC1-42F5-8E58-0634223B15F0</PackageIdentityPublisher>
     <IntermediateOutputPath>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

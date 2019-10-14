@@ -9,5 +9,9 @@
     <AppIconSource>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\PomodoriTimer Icon\PomodoroLogo.png</AppIconSource>
     <SplashScreenSource>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\PomodoriTimer Icon\PomodoroLogo.png</SplashScreenSource>
     <PackageLogoSource>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\PomodoriTimer Icon\PomodoroLogo.png</PackageLogoSource>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <UapAppxPackageBuildMode>StoreOnly</UapAppxPackageBuildMode>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
   </PropertyGroup>
 </Project>

@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="PomodoriTimer" Publisher="CN=a9415905-cf42-4cf5-b2ff-9e055a0a9698" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="23940DanielCherrin.PomodoriTimer" Publisher="CN=E237DED7-BEC1-42F5-8E58-0634223B15F0" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="61dd9d9e-ad16-4ffd-adab-dfafee3c1f42" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Pomodori Timer</DisplayName>
-    <PublisherDisplayName>Daniel R Cherrin</PublisherDisplayName>
+    <PublisherDisplayName>Daniel Cherrin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -20,7 +20,7 @@
     <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.27328.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
-    <Resource Language="EN-US" />
+    <Resource Language="EN-AU" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="PomodoriTimer.UWP.exe" EntryPoint="PomodoriTimer.UWP.App">
