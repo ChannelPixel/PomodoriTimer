@@ -1,2 +1,2 @@
-# danielCherrin_PomodoriTimer
+# Pomodori Timer
  Xamarin - Pomodoro Timer App
