@@ -4,8 +4,6 @@ using System.Text;
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Essentials;
-using Plugin.LocalNotifications;
-using Plugin.SimpleAudioPlayer;
 
 namespace danielCherrin_PomodoriTimer
 {
@@ -27,87 +25,6 @@ namespace danielCherrin_PomodoriTimer
                 Application.Current.Resources["Color_Main"] = ColorConverters.FromHex("#1a1a1a");
                 Application.Current.Resources["Color_Secondary"] = ColorConverters.FromHex("#f1f1f1");
             }
-        }
-
-        internal static void AlarmNotificationShow(int currentTimerState)
-        {
-            Random rand = new Random();
-            int pQuotePos = rand.Next(0, producivityQuotes.Length);
-
-            //Pom
-            if (currentTimerState == 0
-                || currentTimerState == 2
-                || currentTimerState == 4
-                || currentTimerState == 6)
-            {
-                CrossLocalNotifications.Current.Show("Let's get working!", producivityQuotes[pQuotePos], 123456789);
-            }
-            //Break 
-            else if (currentTimerState == 1
-                    || currentTimerState == 3
-                    || currentTimerState == 5
-                    || currentTimerState == 7)
-            {
-
-                CrossLocalNotifications.Current.Show("Time for a short break.", producivityQuotes[pQuotePos], 123456789);
-            }
-            //Longbreak 
-            else if (currentTimerState == 8)
-            {
-
-                CrossLocalNotifications.Current.Show("Time for a long break.", producivityQuotes[pQuotePos], 123456789);
-            }
-        }
-
-        internal static void AlarmNotificationShow(int nextTimerState, int notificationId)
-        {
-            //Pom
-            if (nextTimerState == 0
-                || nextTimerState == 2
-                || nextTimerState == 4
-                || nextTimerState == 6)
-            {
-                CrossLocalNotifications.Current.Show("Back to studying!", "Test body", notificationId);
-            }
-            //Break 
-            else if (nextTimerState == 1
-                    || nextTimerState == 3
-                    || nextTimerState == 5
-                    || nextTimerState == 7)
-            {
-
-                CrossLocalNotifications.Current.Show("Time for a short break", "Test body", notificationId);
-            }
-            //Longbreak 
-            else if (nextTimerState == 8)
-            {
-
-                CrossLocalNotifications.Current.Show("Time for a long break", "Test body", notificationId);
-            }
-        }
-
-        internal static void AlarmNotificationCancel()
-        {
-            CrossLocalNotifications.Current.Cancel(123456789);
-        }
-
-        internal static void AlarmNotificationCancel(int notificationId)
-        {
-
-            CrossLocalNotifications.Current.Cancel(notificationId);
-        }
-
-        internal static void AlarmSoundStart()
-        {
-            var player = CrossSimpleAudioPlayer.Current;
-            player.Load("gentle_morning_alarmFaded.wav");
-            player.Play();
-        }
-
-        internal static void AlarmSoundStop()
-        {
-            var player = CrossSimpleAudioPlayer.Current;
-            player.Stop();
         }
 
         internal static string[] producivityQuotes = new string[]

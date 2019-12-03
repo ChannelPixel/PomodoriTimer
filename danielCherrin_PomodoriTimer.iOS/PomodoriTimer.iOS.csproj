@@ -126,13 +126,7 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.2</Version>
     </PackageReference>
-    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer">
-      <Version>1.3.1</Version>
-    </PackageReference>
-    <PackageReference Include="Xam.Plugins.Notifier">
-      <Version>3.0.1</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.815419" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -144,5 +138,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\gentle_morning_alarmFaded.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DependencyClasses\" />
   </ItemGroup>
 </Project>

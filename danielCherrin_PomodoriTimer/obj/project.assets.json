@@ -44,31 +44,6 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -81,7 +56,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -321,84 +296,6 @@
         "version.txt"
       ]
     },
-    "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-      "sha512": "La40CN/Inhd3ewZeNZUGbzgOAt2Oio3/fyFlzVbeExyuhywtsRaodhRTnIX8IYOGvA/gqEznQw/Ws7PZxTekig==",
-      "type": "package",
-      "path": "xam.plugin.simpleaudioplayer/1.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
-        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/net45/Plugin.SimpleAudioPlayer.WPF.dll",
-        "lib/net45/Plugin.SimpleAudioPlayer.WPF.pdb",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
-        "xam.plugin.simpleaudioplayer.1.3.1.nupkg.sha512",
-        "xam.plugin.simpleaudioplayer.nuspec"
-      ]
-    },
-    "Xam.Plugins.Notifier/3.0.1": {
-      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
-      "type": "package",
-      "path": "xam.plugins.notifier/3.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
-        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/UAP10/Plugin.LocalNotifications.XML",
-        "lib/UAP10/Plugin.LocalNotifications.dll",
-        "lib/UAP10/Plugin.LocalNotifications.pdb",
-        "lib/UAP10/Plugin.LocalNotifications.pri",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
-        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
-        "xam.plugins.notifier.3.0.1.nupkg.sha512",
-        "xam.plugins.notifier.nuspec"
-      ]
-    },
     "Xamarin.Essentials/1.3.1": {
       "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
@@ -451,10 +348,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.815419": {
-      "sha512": "GrKE8TBjR5chew92HBcoaTuqwo6Jnpp0djVaN4/wtGQW/URZAt3Eb3zF8rQ6jRA2WKuTKm3wyPTCPrB2PekIfQ==",
+    "Xamarin.Forms/4.3.0.908675": {
+      "sha512": "kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.815419",
+      "path": "xamarin.forms/4.3.0.908675",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -682,9 +579,11 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
@@ -693,7 +592,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.815419.nupkg.sha512",
+        "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -702,10 +601,8 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
-      "Xam.Plugin.SimpleAudioPlayer >= 1.3.1",
-      "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.2.0.815419"
+      "Xamarin.Forms >= 4.3.0.908675"
     ]
   },
   "packageFolders": {
@@ -762,21 +659,13 @@
             "target": "Package",
             "version": "[12.0.2, )"
           },
-          "Xam.Plugin.SimpleAudioPlayer": {
-            "target": "Package",
-            "version": "[1.3.1, )"
-          },
-          "Xam.Plugins.Notifier": {
-            "target": "Package",
-            "version": "[3.0.1, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.815419, )"
+            "version": "[4.3.0.908675, )"
           }
         },
         "imports": [

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>E88ACC90214A24A8CA20E4546D27F5F029519302B57B377318073169894EC55F</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>328BBA865EA177370804005E7BB030D2BBE2E1D0C087A8780980DB6F7CF438E3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>23940DanielCherrin.PomodoriTimer_1.0.0.0_x86__zy8sh2a9r78y0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>23940DanielCherrin.PomodoriTimer_zy8sh2a9r78y0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>23940DanielCherrin.PomodoriTimer</RegisteredPackageID>
@@ -30,7 +30,7 @@
     <AppXManifest Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-12T13:44:04.336</Modified>
+      <Modified>2019-10-24T11:17:29.074</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -302,22 +302,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\PomodoriTimer.UWP.dll">
       <PackagePath>PomodoriTimer.UWP.dll</PackagePath>
-      <Modified>2019-10-12T13:44:02.564</Modified>
+      <Modified>2019-10-24T11:17:27.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\PomodoriTimer.UWP.exe">
       <PackagePath>PomodoriTimer.UWP.exe</PackagePath>
-      <Modified>2019-10-12T13:44:04.299</Modified>
+      <Modified>2019-10-24T11:17:29.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\PomodoriTimer.UWP.pdb">
       <PackagePath>PomodoriTimer.UWP.pdb</PackagePath>
-      <Modified>2019-10-12T13:44:04.295</Modified>
+      <Modified>2019-10-24T11:17:29.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-12T13:42:48.095</Modified>
+      <Modified>2019-10-24T11:16:03.644</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Daniel\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.1.appx">
+      <Name>Microsoft.UI.Xaml.2.1</Name>
+      <Version>2.11906.6001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.1, MinVersion = 2.11906.6001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Daniel\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\Daniel\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-27913-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
       <Name>Microsoft.NET.Native.Framework.2.2</Name>
       <Version>2.2.27912.0</Version>

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Essentials;
 using Newtonsoft.Json;
+using PomodoriTimer.Interfaces;
 
 namespace danielCherrin_PomodoriTimer
 {
@@ -22,8 +23,8 @@ namespace danielCherrin_PomodoriTimer
         {
             InitializeComponent();
             CountingThread = StartCountingThread();
-            UpdateUI();
             PomodoriTimerAPI.RefreshDynamicThemeResources(HomeTimer.UseDarkTheme);
+            UpdateHomeUI();
         }
 
         private async Task StartCountingThread()
@@ -34,16 +35,22 @@ namespace danielCherrin_PomodoriTimer
                 {
                     HomeTimer.ToggleCounting();
                     HomeTimer.NextTimerState();
-                    if(HomeTimer.UseAlarmNotification)
-                        PomodoriTimerAPI.AlarmNotificationShow(HomeTimer.CurrentTimerState);
+                    UpdateHomeUI();
+
+
+                    if (HomeTimer.UseAlarmNotification)
+                    {
+                        Random rand = new Random();
+                        DependencyService.Get<IXamPixelNotification>().ShowNotification("Times Up", PomodoriTimerAPI.producivityQuotes[rand.Next(0, PomodoriTimerAPI.producivityQuotes.Length)]);
+                    }
                     if (HomeTimer.UseAlarmSound)
-                        PomodoriTimerAPI.AlarmSoundStart();
-                    UpdateUI();
+                        DependencyService.Get<IXamPixelAudio>().PlayAudio("gentle_morning_alarmFaded.wav");
+
                 }
                 else if (HomeTimer.Counting)
                 {
                     HomeTimer.CurrentSpan = HomeTimer.CurrentSpan.Add(new TimeSpan(0, 0, -1));
-                    UpdateUI();
+                    UpdateHomeUI();
                 }
                 await Task.Delay(1000);
             }
@@ -54,7 +61,7 @@ namespace danielCherrin_PomodoriTimer
             Preferences.Set("UserPomodori", JsonConvert.SerializeObject(HomeTimer));
         }
 
-        internal void UpdateUI()
+        internal void UpdateHomeUI()
         {
             Lbl_HomeTimer.Text = HomeTimer.CurrentSpan.ToString(@"mm\:ss");
 
@@ -177,14 +184,14 @@ namespace danielCherrin_PomodoriTimer
         private void Btn_PlayPause_Clicked(object sender, EventArgs e)
         {
             HomeTimer.ToggleCounting();
-            UpdateUI();
+            UpdateHomeUI();
         }
 
         private void Btn_Refresh_Clicked(object sender, EventArgs e)
         {
             HomeTimer.Counting = false;
             HomeTimer.RefreshTimerState();
-            UpdateUI();
+            UpdateHomeUI();
         }
 
         private void Btn_HomeSettings_Clicked(object sender, EventArgs e)
@@ -196,7 +203,7 @@ namespace danielCherrin_PomodoriTimer
         {
             HomeTimer.Counting = false;
             HomeTimer.NextTimerState();
-            UpdateUI();
+            UpdateHomeUI();
         }
     }
 }

@@ -19,6 +19,7 @@ using global::Windows.Foundation.Collections;
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Security.Cryptography.Encoding")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Security.Cryptography.Cng")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Security.Cryptography.Csp")]
+[assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Console")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Net.NameResolution")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Net.Sockets")]
 [assembly: global::System.Runtime.CompilerServices.IgnoresAccessChecksTo("System.Security.Principal.Windows")]

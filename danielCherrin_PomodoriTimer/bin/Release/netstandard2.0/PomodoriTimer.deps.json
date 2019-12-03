@@ -14,7 +14,7 @@
           "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "runtime": {
           "PomodoriTimer.dll": {}
@@ -80,19 +80,19 @@
           }
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.115"
+            "fileVersion": "4.3.0.336"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.115"
+            "fileVersion": "4.3.0.336"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.2.0.115"
+            "fileVersion": "4.3.0.336"
           }
         }
       }
@@ -153,12 +153,12 @@
       "path": "xamarin.essentials/1.3.1",
       "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.2.0.815419": {
+    "Xamarin.Forms/4.3.0.908675": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GrKE8TBjR5chew92HBcoaTuqwo6Jnpp0djVaN4/wtGQW/URZAt3Eb3zF8rQ6jRA2WKuTKm3wyPTCPrB2PekIfQ==",
-      "path": "xamarin.forms/4.2.0.815419",
-      "hashPath": "xamarin.forms.4.2.0.815419.nupkg.sha512"
+      "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
+      "path": "xamarin.forms/4.3.0.908675",
+      "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
     }
   }
 }

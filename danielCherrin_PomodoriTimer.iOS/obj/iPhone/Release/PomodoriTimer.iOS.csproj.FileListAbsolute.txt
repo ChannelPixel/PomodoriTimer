@@ -1,3 +1,4 @@
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\bin\iPhone\Release\PomodoriTimer.iOS.exe
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\bin\iPhone\Release\Newtonsoft.Json.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\bin\iPhone\Release\Plugin.SimpleAudioPlayer.Abstractions.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\bin\iPhone\Release\Plugin.SimpleAudioPlayer.Abstractions.pdb
@@ -58,5 +59,4 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\obj\iPhone\Release\PomodoriTimer.iOS.csprojAssemblyReference.cache
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\obj\iPhone\Release\XamlC.stamp
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\obj\iPhone\Release\PomodoriTimer.iOS.csproj.CopyComplete
-Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\bin\iPhone\Release\PomodoriTimer.iOS.exe
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.iOS\obj\iPhone\Release\PomodoriTimer.iOS.exe

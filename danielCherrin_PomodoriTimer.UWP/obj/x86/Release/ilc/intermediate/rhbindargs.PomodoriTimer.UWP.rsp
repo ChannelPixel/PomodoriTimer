@@ -15,3 +15,6 @@
 /shimexe
 "/classlib:SharedLibrary"
 "/sourcelink:Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Essentials.srclink"
+"/sourcelink:Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Core.srclink"
+"/sourcelink:Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.UAP.srclink"
+"/sourcelink:Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Xaml.srclink"

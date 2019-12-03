@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Program Files (x86)\Android\android-sdk\platforms\android-29\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\Daniel\.nuget\packages\Microsoft.UI.Xaml\2.1.190606001\build\DensityStyles" t="Include">
+      <e p="Compact.xaml" t="Include" />
+    </e>
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.arch.lifecycle.runtime\1.1.1.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.arch.lifecycle.viewmodel\1.1.1.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.animated.vector.drawable\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.compat\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.coordinaterlayout\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.design\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.media.compat\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.transition\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.v7.appcompat\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.v7.recyclerview\28.0.0.3\proguard\monoandroid90\proguard.txt" t="Include" />
+    <e p="C:\Users\Daniel\.nuget\packages\xamarin.android.support.versionedparcelable\28.0.0.3\proguard\monoandroid90" t="Include">
+      <e p="proguard.txt" t="Include" />
+    </e>
+    <e p="C:\Users\Daniel\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PomodoriTimer.-95259708.00" t="ExcludeRecursive" />
+    <e p="Z:\Github\Xamarin\danielCherrin_PomodoriTimer" t="IncludeFlat">
+      <e p="danielCherrin_PomodoriTimer" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IXamPixelAudio.cs" t="Include" />
+          <e p="IXamPixelNotification.cs" t="Include" />
+        </e>
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="PomodoriTimer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PomodoriTimer.csproj" t="IncludeRecursive" />
+        <e p="PomodoriTimerClasses.cs" t="Include" />
+        <e p="SettingsPage.xaml" t="Include" />
+        <e p="SettingsPage.xaml.cs" t="Include" />
+        <e p="Statics" t="Include" />
+      </e>
+      <e p="danielCherrin_PomodoriTimer.Android" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+          <e p="gentle_morning_alarmFaded.wav" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DependencyClasses" t="Include">
+          <e p="XamPixelAudio.cs" t="Include" />
+        </e>
+        <e p="MainActivity.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PomodoriTimer.Android.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include" />
+          <e p="drawable-hdpi" t="Include" />
+          <e p="drawable-xhdpi" t="Include" />
+          <e p="drawable-xxhdpi" t="Include" />
+          <e p="drawable-xxxhdpi" t="Include" />
+          <e p="layout" t="Include">
+            <e p="Tabbar.xml" t="Include" />
+            <e p="Toolbar.xml" t="Include" />
+          </e>
+          <e p="mipmap-anydpi-v26" t="Include">
+            <e p="icon.xml" t="Include" />
+            <e p="icon_round.xml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+            <e p="PomodoriIcon.png" t="Include" />
+          </e>
+          <e p="mipmap-mdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+            <e p="PomodoriIcon.png" t="Include" />
+          </e>
+          <e p="mipmap-xhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+            <e p="PomodoriIcon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+            <e p="PomodoriIcon.png" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include">
+            <e p="icon.png" t="Include" />
+            <e p="launcher_foreground.png" t="Include" />
+            <e p="PomodoriIcon.png" t="Include" />
+          </e>
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="colors.xml" t="Include" />
+            <e p="styles.xml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="danielCherrin_PomodoriTimer.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+            <e p="Icon1024.png" t="Include" />
+            <e p="Icon120.png" t="Include" />
+            <e p="Icon152.png" t="Include" />
+            <e p="Icon167.png" t="Include" />
+            <e p="Icon180.png" t="Include" />
+            <e p="Icon20.png" t="Include" />
+            <e p="Icon29.png" t="Include" />
+            <e p="Icon40.png" t="Include" />
+            <e p="Icon58.png" t="Include" />
+            <e p="Icon60.png" t="Include" />
+            <e p="Icon76.png" t="Include" />
+            <e p="Icon80.png" t="Include" />
+            <e p="Icon87.png" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DependencyClasses" t="Include" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PomodoriTimer.iOS.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="gentle_morning_alarmFaded.wav" t="Include" />
+          <e p="LaunchScreen.storyboard" t="Include" />
+        </e>
+      </e>
+      <e p="danielCherrin_PomodoriTimer.UWP" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="Assets" t="Include">
+          <e p="gentle_morning_alarmFaded.wav" t="Include" />
+          <e p="LargeTile.scale-100.png" t="Include" />
+          <e p="LargeTile.scale-125.png" t="Include" />
+          <e p="LargeTile.scale-150.png" t="Include" />
+          <e p="LargeTile.scale-200.png" t="Include" />
+          <e p="LargeTile.scale-400.png" t="Include" />
+          <e p="SmallTile.scale-100.png" t="Include" />
+          <e p="SmallTile.scale-125.png" t="Include" />
+          <e p="SmallTile.scale-150.png" t="Include" />
+          <e p="SmallTile.scale-200.png" t="Include" />
+          <e p="SmallTile.scale-400.png" t="Include" />
+          <e p="SplashScreen.scale-100.png" t="Include" />
+          <e p="SplashScreen.scale-125.png" t="Include" />
+          <e p="SplashScreen.scale-150.png" t="Include" />
+          <e p="SplashScreen.scale-200.png" t="Include" />
+          <e p="SplashScreen.scale-400.png" t="Include" />
+          <e p="Square150x150Logo.scale-100.png" t="Include" />
+          <e p="Square150x150Logo.scale-125.png" t="Include" />
+          <e p="Square150x150Logo.scale-150.png" t="Include" />
+          <e p="Square150x150Logo.scale-200.png" t="Include" />
+          <e p="Square150x150Logo.scale-400.png" t="Include" />
+          <e p="Square44x44Logo.altform-lightunplated_targetsize-16.png" t="Include" />
+          <e p="Square44x44Logo.altform-lightunplated_targetsize-24.png" t="Include" />
+          <e p="Square44x44Logo.altform-lightunplated_targetsize-256.png" t="Include" />
+          <e p="Square44x44Logo.altform-lightunplated_targetsize-32.png" t="Include" />
+          <e p="Square44x44Logo.altform-lightunplated_targetsize-48.png" t="Include" />
+          <e p="Square44x44Logo.altform-unplated_targetsize-16.png" t="Include" />
+          <e p="Square44x44Logo.altform-unplated_targetsize-24.png" t="Include" />
+          <e p="Square44x44Logo.altform-unplated_targetsize-256.png" t="Include" />
+          <e p="Square44x44Logo.altform-unplated_targetsize-32.png" t="Include" />
+          <e p="Square44x44Logo.altform-unplated_targetsize-48.png" t="Include" />
+          <e p="Square44x44Logo.scale-100.png" t="Include" />
+          <e p="Square44x44Logo.scale-125.png" t="Include" />
+          <e p="Square44x44Logo.scale-150.png" t="Include" />
+          <e p="Square44x44Logo.scale-200.png" t="Include" />
+          <e p="Square44x44Logo.scale-400.png" t="Include" />
+          <e p="Square44x44Logo.targetsize-16.png" t="Include" />
+          <e p="Square44x44Logo.targetsize-24.png" t="Include" />
+          <e p="Square44x44Logo.targetsize-256.png" t="Include" />
+          <e p="Square44x44Logo.targetsize-32.png" t="Include" />
+          <e p="Square44x44Logo.targetsize-48.png" t="Include" />
+          <e p="StoreLogo.scale-100.png" t="Include" />
+          <e p="StoreLogo.scale-125.png" t="Include" />
+          <e p="StoreLogo.scale-150.png" t="Include" />
+          <e p="StoreLogo.scale-200.png" t="Include" />
+          <e p="StoreLogo.scale-400.png" t="Include" />
+          <e p="Wide310x150Logo.scale-100.png" t="Include" />
+          <e p="Wide310x150Logo.scale-125.png" t="Include" />
+          <e p="Wide310x150Logo.scale-150.png" t="Include" />
+          <e p="Wide310x150Logo.scale-200.png" t="Include" />
+          <e p="Wide310x150Logo.scale-400.png" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DependencyClasses" t="Include">
+          <e p="XamPixelAudio.cs" t="Include" />
+          <e p="XamPixelNotification.cs" t="Include" />
+        </e>
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="Microsoft.UI.Xaml" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Package.appxmanifest" t="Include" />
+        <e p="Package.StoreAssociation.xml" t="Include" />
+        <e p="PomodoriTimer.UWP.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Default.rd.xml" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PomodoriTimer.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

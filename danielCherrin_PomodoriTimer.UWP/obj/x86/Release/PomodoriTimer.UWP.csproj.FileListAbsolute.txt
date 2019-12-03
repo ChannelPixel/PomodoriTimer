@@ -1,3 +1,4 @@
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\App.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\MainPage.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\bin\x86\Release\PomodoriTimer.UWP.xr.xml
@@ -274,8 +275,10 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\MainPage.g.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\XamlTypeInfo.g.cs
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\App.xaml
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\Microsoft.UI.Xaml\DensityStyles\Compact.xaml
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\MainPage.xaml
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\App.xbf
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\MainPage.xbf
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\XamlSaveStateFile.xml
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\XamlC.stamp
@@ -499,6 +502,7 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\PomodoriTimer.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\Microsoft.Graphics.Canvas.winmd
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\resources.pri
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\clrcompression.dll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\in\Microsoft.Graphics.Canvas.dll
@@ -593,6 +597,8 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.Primitives.ilpdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.TypeConverter.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.TypeConverter.ilpdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Console.ildll
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Console.ilpdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ilpdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.DiagnosticSource.ildll
@@ -690,12 +696,15 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Essentials.srclink
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Core.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Core.ilpdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Core.srclink
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.ilpdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.UAP.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.UAP.ilpdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Platform.UAP.srclink
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Xaml.ildll
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Xaml.ilpdb
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\Xamarin.Forms.Xaml.srclink
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\MDIL\PomodoriTimer.UWP.mdilexe
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\MDIL\PomodoriTimer.UWP.mdilpdb
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\MDIL\PomodoriTimer.UWP.rsp
@@ -727,6 +736,8 @@ Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\ob
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.ComponentModel.Primitives.index.txt
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.ComponentModel.TypeConverter.0.rsrc
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.ComponentModel.TypeConverter.index.txt
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.Console.0.rsrc
+Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.Console.index.txt
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.Data.Common.0.rsrc
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.Data.Common.index.txt
 Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\Resources\System.Diagnostics.DiagnosticSource.0.rsrc

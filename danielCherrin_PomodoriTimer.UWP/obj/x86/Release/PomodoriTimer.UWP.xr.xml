@@ -4,6 +4,10 @@
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+    </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.WindowsPage">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />

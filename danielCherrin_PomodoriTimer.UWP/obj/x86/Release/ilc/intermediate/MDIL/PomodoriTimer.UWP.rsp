@@ -24,6 +24,7 @@
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.ildll"
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.Primitives.ildll"
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.ComponentModel.TypeConverter.ildll"
+/in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Console.ildll"
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Data.Common.ildll"
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.DiagnosticSource.ildll"
 /in "Z:\Github\Xamarin\danielCherrin_PomodoriTimer\danielCherrin_PomodoriTimer.UWP\obj\x86\Release\ilc\intermediate\ILTransformed\System.Diagnostics.TraceSource.ildll"

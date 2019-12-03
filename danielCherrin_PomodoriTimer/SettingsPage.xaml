@@ -7,15 +7,8 @@
              x:Class="danielCherrin_PomodoriTimer.SettingsPage"
              BackgroundColor="{DynamicResource Color_Secondary}">
     <ContentPage.Content>
-
         <Grid Padding="15">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
@@ -31,60 +24,83 @@
                     Style="{StaticResource Button_S}" Text="&#x21A9;"
                     x:Name="Btn_ReturnToHomepage" Clicked="Btn_ReturnToHomepage_Clicked"/>
 
-            <Label Grid.Row="1" Grid.Column="1"
+            <ScrollView Grid.Row="1" Grid.Column="0"
+                        Grid.ColumnSpan="5"
+                        VerticalScrollBarVisibility="Always" HorizontalScrollBarVisibility="Never">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="50"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Use Dark Theme"/>
-            <Switch Grid.Row="1" Grid.Column="3"
+                    <Switch Grid.Row="0" Grid.Column="3"
                     HorizontalOptions="End" WidthRequest="50"
                     OnColor="{DynamicResource Color_Third}"
                     x:Name="Swtch_UseDarkTheme" Toggled="Swtch_UseDarkTheme_Toggled"/>
 
-            <Label Grid.Row="2" Grid.Column="1"
+                    <Label Grid.Row="1" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Alarm Notification"/>
-            <Switch Grid.Row="2" Grid.Column="3"
+                    <Switch Grid.Row="1" Grid.Column="3"
                     HorizontalOptions="End" WidthRequest="50"
                     OnColor="{DynamicResource Color_Third}"
                     x:Name="Swtch_UseAlarmNotification" Toggled="Swtch_UseAlarmNotification_Toggled"/>
 
-            <Label Grid.Row="3" Grid.Column="1"
+                    <Label Grid.Row="2" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Alarm Sound"/>
-            <Switch Grid.Row="3" Grid.Column="3"
+                    <Switch Grid.Row="2" Grid.Column="3"
                     HorizontalOptions="End" WidthRequest="50"
                     OnColor="{DynamicResource Color_Third}"
                     x:Name="Swtch_UseAlarmSound" Toggled="Swtch_UseAlarmSound_Toggled"/>
 
-            <Label Grid.Row="4" Grid.Column="1"
+                    <Label Grid.Row="3" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Study Length (min.)"/>
-            <Picker Grid.Row="4" Grid.Column="3"
+                    <Picker Grid.Row="3" Grid.Column="3"
                     HorizontalOptions="End" 
                     TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_StudyMin" SelectedIndexChanged="Pckr_Lengths_SelectedIndexChanged"/>
 
-            <Label Grid.Row="5" Grid.Column="1"
+                    <Label Grid.Row="4" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Break Length (min.)"/>
-            <Picker Grid.Row="5" Grid.Column="3"
+                    <Picker Grid.Row="4" Grid.Column="3"
                     HorizontalOptions="End"
                     TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_ShortBreakMin" SelectedIndexChanged="Pckr_ShortBreakMin_SelectedIndexChanged"/>
 
-            <Label Grid.Row="6" Grid.Column="1"
+                    <Label Grid.Row="5" Grid.Column="1"
                    HorizontalOptions="Start"
                    Style="{StaticResource Label_XS}"
                    Text="Long Break Length (min.)"/>
-            <Picker Grid.Row="6" Grid.Column="3"
+                    <Picker Grid.Row="5" Grid.Column="3"
                     HorizontalOptions="End"
                     TextColor="{DynamicResource Color_Main}"
                     x:Name="Pckr_LongBreakMin" SelectedIndexChanged="Pckr_LongBreakMin_SelectedIndexChanged"/>
 
+                </Grid>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

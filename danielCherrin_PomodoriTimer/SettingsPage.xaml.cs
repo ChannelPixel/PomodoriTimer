@@ -105,7 +105,7 @@ namespace danielCherrin_PomodoriTimer
 
         private void UpdateHomepage()
         {
-            PrevPage.UpdateUI();
+            PrevPage.UpdateHomeUI();
         }
 
         private void Swtch_UseDarkTheme_Toggled(object sender, ToggledEventArgs e)

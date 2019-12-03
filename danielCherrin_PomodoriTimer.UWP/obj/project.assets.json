@@ -203,6 +203,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -225,6 +249,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -348,28 +381,6 @@
           }
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -383,10 +394,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -412,10 +424,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -628,6 +638,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -650,6 +684,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -940,28 +983,6 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -975,10 +996,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -1004,10 +1026,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -1220,6 +1240,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -1242,6 +1286,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -1533,28 +1586,6 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -1568,10 +1599,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -1597,10 +1629,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -1813,6 +1843,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -1835,6 +1889,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2123,28 +2186,6 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -2158,10 +2199,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -2187,10 +2229,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -2403,6 +2443,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2425,6 +2489,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2715,28 +2788,6 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -2750,10 +2801,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -2779,10 +2831,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -2995,6 +3045,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3017,6 +3091,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3308,28 +3391,6 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -3343,10 +3404,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -3372,10 +3434,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -3588,6 +3648,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3610,6 +3694,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3900,28 +3993,6 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -3935,10 +4006,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -3964,10 +4036,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -4180,6 +4250,30 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
+      "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+        },
+        "compile": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll": {}
+        }
+      },
+      "Microsoft.UI.Xaml/2.1.190606001": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
+        },
+        "build": {
+          "build/Microsoft.UI.Xaml.props": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -4202,6 +4296,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QueryString.NET/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/QueryString.NETCore.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -4493,28 +4596,6 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
-          "lib/UAP10/Plugin.SimpleAudioPlayer.dll": {}
-        }
-      },
-      "Xam.Plugins.Notifier/3.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll": {},
-          "lib/UAP10/Plugin.LocalNotifications.dll": {}
-        }
-      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -4528,10 +4609,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.815419": {
+      "Xamarin.Forms/4.3.0.908675": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
+          "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
           "Win2D.uwp": "1.20.0"
         },
@@ -4557,10 +4639,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Xam.Plugin.SimpleAudioPlayer": "1.3.1",
-          "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.2.0.815419"
+          "Xamarin.Forms": "4.3.0.908675"
         },
         "compile": {
           "bin/placeholder/PomodoriTimer.dll": {}
@@ -4953,6 +5033,58 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Toolkit.Uwp.Notifications/5.1.1": {
+      "sha512": "Zyor4ije90fWcHjnD2+ADVX/yFC38n8VfnmJ3HWMCEh4itcoDdxHODAVXn91e03I00zWbx7WGVXkXIV3SDy32Q==",
+      "type": "package",
+      "path": "microsoft.toolkit.uwp.notifications/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/Microsoft.Toolkit.Uwp.Notifications.targets",
+        "lib/native/Microsoft.Toolkit.Uwp.Notifications.pdb",
+        "lib/native/Microsoft.Toolkit.Uwp.Notifications.pri",
+        "lib/native/Microsoft.Toolkit.Uwp.Notifications.winmd",
+        "lib/native/Microsoft.Toolkit.Uwp.Notifications.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.Uwp.Notifications.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.Uwp.Notifications.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.Uwp.Notifications.xml",
+        "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.dll",
+        "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.pdb",
+        "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.pri",
+        "lib/uap10.0/Microsoft.Toolkit.Uwp.Notifications.xml",
+        "microsoft.toolkit.uwp.notifications.5.1.1.nupkg.sha512",
+        "microsoft.toolkit.uwp.notifications.nuspec"
+      ]
+    },
+    "Microsoft.UI.Xaml/2.1.190606001": {
+      "sha512": "4ZJIwRcq1zzyZ34R2tRDskc8bi+CveHlaAJuHQyWV7ME1N13jyhenw1p2L/OCnpuKdFg0RRDfAQldOocG2GkWQ==",
+      "type": "package",
+      "path": "microsoft.ui.xaml/2.1.190606001",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Common.targets",
+        "build/DensityStyles/Compact.xaml",
+        "build/Microsoft.UI.Xaml.props",
+        "build/MicrosoftUIXamlVersion.props",
+        "build/native/Microsoft.UI.Xaml.targets",
+        "build/rs1_themes/generic.xaml",
+        "lib/uap10.0/Design/Microsoft.UI.Xaml.Design.dll",
+        "lib/uap10.0/Microsoft.UI.Xaml.winmd",
+        "lib/uap10.0/Microsoft.UI.Xaml.xml",
+        "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
+        "license.txt",
+        "microsoft.ui.xaml.2.1.190606001.nupkg.sha512",
+        "microsoft.ui.xaml.nuspec",
+        "readme.txt",
+        "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.1.appx",
+        "tools/AppX/arm64/Release/Microsoft.UI.Xaml.2.1.appx",
+        "tools/AppX/x64/Release/Microsoft.UI.Xaml.2.1.appx",
+        "tools/AppX/x86/Release/Microsoft.UI.Xaml.2.1.appx",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
@@ -5110,6 +5242,23 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "QueryString.NET/1.0.0": {
+      "sha512": "5iVQSmK0X6iTMQWKbegV92lfAcCjJXFduL6CKVReJDzdWmH6k10aztDRXE9cWU4YW1tXsCOfkwqRCG/8Tod9aA==",
+      "type": "package",
+      "path": "querystring.net/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/dotnet/QueryString.NETCore.XML",
+        "lib/dotnet/QueryString.NETCore.dll",
+        "lib/dotnet/QueryString.NETCore.pdb",
+        "lib/portable-net4+sl50+win+wpa81+wp80/QueryString.Portable.dll",
+        "lib/portable-net4+sl50+win+wpa81+wp80/QueryString.Portable.pdb",
+        "lib/portable-net4+sl50+win+wpa81+wp80/QueryString.Portable.xml",
+        "querystring.net.1.0.0.nupkg.sha512",
+        "querystring.net.nuspec"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -9097,84 +9246,6 @@
         "win2d.uwp.nuspec"
       ]
     },
-    "Xam.Plugin.SimpleAudioPlayer/1.3.1": {
-      "sha512": "La40CN/Inhd3ewZeNZUGbzgOAt2Oio3/fyFlzVbeExyuhywtsRaodhRTnIX8IYOGvA/gqEznQw/Ws7PZxTekig==",
-      "type": "package",
-      "path": "xam.plugin.simpleaudioplayer/1.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
-        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
-        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
-        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
-        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
-        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/net45/Plugin.SimpleAudioPlayer.WPF.dll",
-        "lib/net45/Plugin.SimpleAudioPlayer.WPF.pdb",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
-        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
-        "xam.plugin.simpleaudioplayer.1.3.1.nupkg.sha512",
-        "xam.plugin.simpleaudioplayer.nuspec"
-      ]
-    },
-    "Xam.Plugins.Notifier/3.0.1": {
-      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
-      "type": "package",
-      "path": "xam.plugins.notifier/3.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
-        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
-        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/UAP10/Plugin.LocalNotifications.XML",
-        "lib/UAP10/Plugin.LocalNotifications.dll",
-        "lib/UAP10/Plugin.LocalNotifications.pdb",
-        "lib/UAP10/Plugin.LocalNotifications.pri",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
-        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
-        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
-        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
-        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
-        "xam.plugins.notifier.3.0.1.nupkg.sha512",
-        "xam.plugins.notifier.nuspec"
-      ]
-    },
     "Xamarin.Essentials/1.3.1": {
       "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
@@ -9227,10 +9298,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.815419": {
-      "sha512": "GrKE8TBjR5chew92HBcoaTuqwo6Jnpp0djVaN4/wtGQW/URZAt3Eb3zF8rQ6jRA2WKuTKm3wyPTCPrB2PekIfQ==",
+    "Xamarin.Forms/4.3.0.908675": {
+      "sha512": "kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.815419",
+      "path": "xamarin.forms/4.3.0.908675",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9458,9 +9529,11 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
@@ -9469,7 +9542,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.815419.nupkg.sha512",
+        "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -9482,12 +9555,12 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
+      "Microsoft.Toolkit.Uwp.Notifications >= 5.1.1",
       "Newtonsoft.Json >= 12.0.2",
       "PomodoriTimer >= 1.0.0",
-      "Xam.Plugin.SimpleAudioPlayer >= 1.3.1",
-      "Xam.Plugins.Notifier >= 3.0.1",
+      "QueryString.NET >= 1.0.0",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.2.0.815419"
+      "Xamarin.Forms >= 4.3.0.908675"
     ]
   },
   "packageFolders": {
@@ -9538,17 +9611,17 @@
             "target": "Package",
             "version": "[6.2.9, )"
           },
+          "Microsoft.Toolkit.Uwp.Notifications": {
+            "target": "Package",
+            "version": "[5.1.1, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
           },
-          "Xam.Plugin.SimpleAudioPlayer": {
+          "QueryString.NET": {
             "target": "Package",
-            "version": "[1.3.1, )"
-          },
-          "Xam.Plugins.Notifier": {
-            "target": "Package",
-            "version": "[3.0.1, )"
+            "version": "[1.0.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -9556,7 +9629,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.815419, )"
+            "version": "[4.3.0.908675, )"
           }
         },
         "imports": [
